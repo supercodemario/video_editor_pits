@@ -1,10 +1,10 @@
-name: video_editor_pits
+name: video_editor
 version: 3.1.2
 description: |
  A flutter package for editing video with fully customizable UI.
  Supports crop, trim, rotation and cover selection.
  Provides commands to run in order to export the video or cover.
-repository: https://github.com/kariot/video_editor
+repository: https://github.com/supercodemario/video_editor_pits.git
 
 environment:
   flutter: ">=3.0.0"
@@ -15,16 +15,20 @@ dependencies:
     sdk: flutter
 
   path: ^1.8.0 # update to `1.8.1` causes #79
-  path_provider: ^2.0.12
+  path_provider: ^2.1.5
   transparent_image: ^2.0.1 # show fade-in placeholder in thumbnails generation
-  video_player: ^2.6.1
-  video_thumbnail: ^0.5.3
+  video_player: ^2.10.1
+  video_thumbnail:
+   git:
+    url: https://github.com/supercodemario/video_thumbnail.git
+    ref: fix/android-upgrade
+
 
 dev_dependencies:
   flutter_test:
     sdk: flutter
 
-  flutter_lints: ^2.0.1
+  flutter_lints: ^6.0.0
 
 screenshots:
   - description: 'Video editor demo'
