@@ -1,6 +1,6 @@
 import 'package:flutter/material.dart';
-import 'package:video_editor_pits/src/models/crop_style.dart';
-import 'package:video_editor_pits/src/widgets/crop/crop_grid.dart';
+import 'package:video_editor/video_editor_pits.dart';
+
 
 class CropGridPainter extends CustomPainter {
   const CropGridPainter(

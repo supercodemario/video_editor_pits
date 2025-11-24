@@ -1,10 +1,12 @@
 import 'dart:math';
 
 import 'package:flutter/material.dart';
-import 'package:video_editor_pits/src/controller.dart';
-import 'package:video_editor_pits/src/utils/helpers.dart';
-import 'package:video_editor_pits/src/models/transform_data.dart';
-import 'package:video_editor_pits/src/widgets/crop/crop_mixin.dart';
+import 'package:video_editor/src/utils/helpers.dart';
+import 'package:video_editor/video_editor_pits.dart';
+
+import '../../models/transform_data.dart';
+import 'crop_mixin.dart' show CropPreviewMixin;
+
 
 @protected
 enum CropBoundaries {

@@ -1,10 +1,10 @@
-name: video_editor_pits
+name: video_editor
 version: 3.1.2
 description: |
  A flutter package for editing video with fully customizable UI.
  Supports crop, trim, rotation and cover selection.
  Provides commands to run in order to export the video or cover.
-repository: https://github.com/kariot/video_editor
+repository: https://github.com/supercodemario/video_editor_pits.git
 
 environment:
   flutter: ">=3.0.0"

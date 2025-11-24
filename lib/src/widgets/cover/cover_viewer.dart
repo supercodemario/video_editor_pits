@@ -1,9 +1,11 @@
 import 'package:flutter/material.dart';
-import 'package:video_editor_pits/src/controller.dart';
-import 'package:video_editor_pits/src/utils/helpers.dart';
-import 'package:video_editor_pits/src/models/cover_data.dart';
-import 'package:video_editor_pits/src/models/transform_data.dart';
-import 'package:video_editor_pits/src/widgets/crop/crop_mixin.dart';
+import 'package:video_editor/video_editor_pits.dart';
+
+
+import '../../models/cover_data.dart';
+import '../../models/transform_data.dart';
+import '../../utils/helpers.dart';
+import '../crop/crop_mixin.dart' show CropPreviewMixin;
 
 class CoverViewer extends StatefulWidget {
   /// It is the viewer that show the selected cover

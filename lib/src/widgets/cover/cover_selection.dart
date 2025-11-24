@@ -1,15 +1,16 @@
 import 'dart:async';
 
 import 'package:flutter/material.dart';
-import 'package:video_editor_pits/src/controller.dart';
-import 'package:video_editor_pits/src/utils/helpers.dart';
-import 'package:video_editor_pits/src/utils/thumbnails.dart';
-import 'package:video_editor_pits/src/models/cover_data.dart';
-import 'package:video_editor_pits/src/models/cover_style.dart';
-import 'package:video_editor_pits/src/models/transform_data.dart';
-import 'package:video_editor_pits/src/widgets/crop/crop_grid_painter.dart';
-import 'package:video_editor_pits/src/widgets/image_viewer.dart';
-import 'package:video_editor_pits/src/widgets/transform.dart';
+import 'package:video_editor/src/models/cover_data.dart';
+import 'package:video_editor/src/utils/thumbnails.dart';
+import 'package:video_editor/src/widgets/image_viewer.dart';
+import 'package:video_editor/src/widgets/transform.dart';
+
+import '../../../video_editor_pits.dart' show VideoEditorController, CoverSelectionStyle;
+import '../../models/transform_data.dart';
+import '../../utils/helpers.dart' show calculateCroppedRect;
+import '../crop/crop_grid_painter.dart' show CropGridPainter;
+
 
 class CoverSelection extends StatefulWidget {
   /// Slider that allow to select a generated cover

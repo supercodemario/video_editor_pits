@@ -2,7 +2,8 @@ import 'dart:math';
 
 import 'package:flutter/material.dart';
 import 'package:flutter/physics.dart';
-import 'package:video_editor_pits/video_editor_pits.dart';
+
+import '../../video_editor_pits.dart' show VideoEditorController;
 
 const kDefaultSelectedColor = Color(0xffffcc00);
 
