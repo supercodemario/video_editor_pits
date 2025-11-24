@@ -15,9 +15,9 @@ dependencies:
     sdk: flutter
 
   path: ^1.8.0 # update to `1.8.1` causes #79
-  path_provider: ^2.0.12
+  path_provider: ^2.1.5
   transparent_image: ^2.0.1 # show fade-in placeholder in thumbnails generation
-  video_player: ^2.6.1
+  video_player: ^2.10.1
   video_thumbnail:
    git:
     url: https://github.com/dimeprog/video_thumbnail_fork.git
@@ -26,7 +26,7 @@ dev_dependencies:
   flutter_test:
     sdk: flutter
 
-  flutter_lints: ^2.0.1
+  flutter_lints: ^6.0.0
 
 screenshots:
   - description: 'Video editor demo'
