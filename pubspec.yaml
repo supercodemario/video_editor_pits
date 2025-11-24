@@ -1,4 +1,4 @@
-name: video_editor_pits
+name: video_editor
 version: 3.1.2
 description: |
  A flutter package for editing video with fully customizable UI.
