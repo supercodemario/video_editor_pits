@@ -17,7 +17,7 @@ dependencies:
   path: ^1.8.0 # update to `1.8.1` causes #79
   path_provider: ^2.1.5
   transparent_image: ^2.0.1 # show fade-in placeholder in thumbnails generation
-  video_player: ^2.10.1
+  video_player: ^2.11.1
   video_thumbnail:
    git:
     url: https://github.com/supercodemario/video_thumbnail.git
